@@ -7,7 +7,7 @@ import os
 pygame.font.init()
 
 # variables that are "meta-gamespecific" ie. that should not follow a savegame
-window_size=(1024,768)
+window_size=(1024,700)
 
 fullscreen = False # if the game should run in fullscreen
 action_window_size = window_size # but corrected by initializing the command box, which changes this variable to the size of the action_window (ie. without the commandbox)
